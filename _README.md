@@ -3,10 +3,14 @@
 PersonaMesh is an end-to-end Machine Learning and Evolutionary Computing framework that clusters candidate psychometric profiles and synthesizes Pareto-optimal engineering teams.
 
 ## 🌟 Benchmark Metrics
-* **Clustering Cohesion:** Achieved a **0.254 Silhouette Score** using K-Means++ across a 40-dimensional behavioral feature space.
+* **Clustering Cohesion:** Achieved a Silhouette Score of 0.2715 
+(isolated behavioral clustering) vs 0.2545 (contaminated), 
+confirming feature isolation improves profiling quality..
 * **Algorithmic Benchmarking:** Evaluated K-Means++ (0.254) against Hierarchical Clustering (0.254), Gaussian Mixture Models (0.167), and DBSCAN (-0.147).
 * **Multi-Objective Optimization:** Deployed an **NSGA-II genetic algorithm** balancing Technical Competence, Behavioral Synergy, and Seniority Balance.
-* **Operational Performance Gain:** Outperformed random team allocation by **+80.1%**, raising average Composite Team Fitness from **0.450 to 0.811**.
+* **Operational Performance Gain:** Outperformed random team allocation by +9.36% on Composite 
+Team Fitness Index, with +18.24% behavioral diversity gain 
+and 16.89% reduction in experience variance..
 
 ## 🏗️ System Architecture
 1. **Psychometric Clustering:** Maps candidates into 4 macro-archetypes (*Collaborative Facilitators, Isolated Specialists, Proactive Visionaries, Autonomous Executors*).
